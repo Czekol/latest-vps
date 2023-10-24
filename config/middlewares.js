@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
   settings: {
     cors: {
       enabled: true,
-      origin: ['https://genialnastrona.pl/', 'https://api.genialnastrona.pl/'], 
+      origin: ['process.env.CORS_ORIGIN'], 
     },
   },
   default: [
