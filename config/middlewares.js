@@ -1,9 +1,8 @@
-
 module.exports = ({ env }) => ({
   settings: {
     cors: {
       enabled: true,
-      origin: ['process.env.CORS_ORIGIN'], 
+      origin: [process.env.CORS_ORIGIN], 
     },
   },
   default: [
